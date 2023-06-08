@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vooruit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex bg-[#DCE0D9] flex-col">
+    <!-- Navigatie -->
+    <div
+      id="navigatie"
+      class="sticky  w-full border-b-[#8f0504] border-solid border-b-4"
+    >
+      <div class="flex justify-between items-center bg-[#DCE0D9]">
+        <div class="flex items-center">
+          <img src="plaatjes/logo.png" alt="Logo" class="w-20 h-20 ml-10" />
+          <h1 class="text-4xl font-bold text-[#8f0504]">Vooruit</h1>
+        </div>
+        <div class="flex items-center">
+          <a href="index" class="text-2xl font-bold text-[#8f0504] mr-10"
+            >Home</a
+          >
+          <a href="gallerij" class="text-2xl font-bold text-[#1c3738] mr-10"
+            >Gallerij</a
+          >
+          <a
+            href="oldtimerhuren"
+            class="text-2xl font-bold text-[#8f0504] mr-10"
+            >Oldtimers huren</a
+          >
+          <a href="autokopen" class="text-2xl font-bold text-[#8f0504] mr-10"
+            >Auto's kopen</a
+          >
+          <a href="contact" class="text-2xl font-bold text-[#8f0504] mr-10"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagina -->
+
+    <!-- Oldtimer sectie -->
+    <div
+      class="grid grid-rows-2 grid-cols-3 m-10 gap-4 object-cover text-center"
+    >
+      <!-- Eerste auto -->
+      <a href="auto1" class="eersteAuto relative">
+        <img
+          src="plaatjes/Gallerij1.jpg"
+          alt="Gallerij foto 1"
+          class="border-4 border-solid border-[#8f0504] object-cover h-full"
+        />
+      </a>
+      <!-- Tweede auto -->
+      <a href="auto2" class="tweedeAuto  relative">
+        <img
+          src="plaatjes/Gallerij2.jpg"
+          alt="Gallerij foto 3"
+          class="border-4 border-solid border-[#8f0504] h-full"
+        />
+      </a>
+      <!-- Derde auto -->
+      <a href="auto2" class="tweedeAuto col-span-1 relative">
+        <img
+          src="plaatjes/Gallerij3.jpg"
+          alt="Gallerij foto 3"
+          class="border-4 border-solid border-[#8f0504] h-full"
+        />
+        <a href="auto2" class="tweedeAuto col-span-1 relative">
+          <img
+            src="plaatjes/Gallerij4.jpg"
+            alt="Gallerij foto 4"
+            class="border-4 border-solid border-[#8f0504] h-full"
+          />
+      </a>
+      <a href="auto2" class="tweedeAuto col-span-1 relative">
+        <img
+          src="plaatjes/Gallerij5.jpg"
+          alt="Gallerij foto 5"
+          class="border-4 border-solid border-[#8f0504] h-full"
+        />
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vooruit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex bg-[#DCE0D9] flex-col">
+  <!-- Navigatie -->
+  <div id="navigatie" class="sticky w-full border-b-[#8f0504] border-solid border-b-4">
+    <div class="flex justify-between items-center bg-[#DCE0D9]">
+      <div class="flex items-center">
+        <img src="plaatjes/logo.png" alt="Logo" class="w-20 h-20 ml-10" />
+        <h1 class="text-4xl font-bold text-[#8f0504]">Vooruit</h1>
+      </div>
+      <div class="flex items-center">
+        <a href="index.html" class="text-2xl font-bold mr-10 text-[#8f0504]">Home</a>
+        <a href="gallerij.html" class="text-2xl font-bold text-[#8f0504] mr-10">Gallerij</a>
+        <a href="oldtimerhuren.html" class="text-2xl font-bold text-[#8f0504] mr-10">Oldtimers huren</a>
+        <a href="kopen.html" class="text-2xl font-bold mr-10 text-[#8f0504]">Auto's kopen</a>
+        <a href="contact.html" class="text-2xl font-bold text-[#1c3738] mr-10">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagina -->
+
+  <section>
+    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-[#8f0504]">Neem contact op met ons</h2>
+      <p class="mb-8 lg:mb-16 font-light text-center text-[#8f0504] sm:text-xl">Probleem? Laat ons horen hoe wij kunnen helpen!</p>
+      <form action="#" class="space-y-8">
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium text-[#8f0504]">Uw email</label>
+          <input type="email" id="email"
+            class="shadow-sm bg-gray-50 border border-[#8f0504] text-[#8f0504] text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+            placeholder="naam@geit.nl" required>
+        </div>
+        <div>
+          <label for="subject" class="block mb-2 text-sm font-medium text-[#8f0504]">Onderwerp</label>
+          <input type="text" id="subject"
+            class="block p-3 w-full text-sm text-[#8f0504] bg-gray-50 rounded-lg border border-[#8f0504] shadow-sm focus:ring-primary-500 focus:border-primary-500"
+            placeholder="Waar kunnen wij u mee helpen?" required>
+        </div>
+        <div class="sm:col-span-2">
+          <label for="message" class="block mb-2 text-sm font-medium text-[#8f0504]">Jouw bericht</label>
+          <textarea id="message" rows="6"
+            class="block p-2.5 w-full text-sm text-[#8f0504] bg-gray-50 rounded-lg shadow-sm border border-[#8f0504] focus:ring-primary-500 focus:border-primary-500"
+            placeholder="Laat een bericht achter..."></textarea>
+        </div>
+        <button type="submit"
+          class="py-3 px-5 text-sm font-medium text-center text-[#DCE0D9] rounded-lg bg-[#8f0504] sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Stuur
+          bericht</button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
